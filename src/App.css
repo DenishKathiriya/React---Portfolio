@@ -279,7 +279,7 @@
 } */
 
 .scroll-nav {
-  background-color: rgb(223, 221, 221);
+  background-color: rgba(217, 221, 232, 255);
   color: wheat;
   width: 100%;
   position: fixed;

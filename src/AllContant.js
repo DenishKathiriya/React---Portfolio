@@ -8,8 +8,8 @@ import svg1 from './Images/003.svg'
 import svg2 from './Images/004.svg'
 import svg3 from './Images/005.svg'
 import svg4 from './Images/006.svg'
-import project1 from './Images/Screenshot 2024-01-24 164821.png'
-import project2 from './Images/Screenshot 2023-12-15 162601.png'
+import project1 from './Images/bank-management.png'
+import project2 from './Images/ai-land.png'
 import AOS from 'aos';
 import Layouts from './Layouts';
 import About from './About'
@@ -120,7 +120,7 @@ export default function AllContant() {
                                     <img src={project1} className='img-fluid projects'></img>
 
                                     <div class="overlay">
-                                        <a href="https://ai-land-test.web.app"><div class="text">Ai-Land-Project</div></a>
+                                        <a href="https://bankmangement.web.app/"><div class="text">Bank-Management-Project</div></a>
                                     </div>
                                 </div>
                             </Col>
@@ -129,7 +129,7 @@ export default function AllContant() {
                                     <img src={project2} className='img-fluid projects'></img>
 
                                     <div class="overlay">
-                                        <a href="https://urban-real-estate-test.web.app/"><div class="text">Urban-real-estate-project</div></a>
+                                        <a href="https://ai-land-test.web.app"><div class="text">Ai-Land-Project</div></a>
                                     </div>
                                 </div>
                             </Col>
@@ -138,6 +138,38 @@ export default function AllContant() {
                 </Container>
 
 
+                <Container id='contact'>
+                    <div className='service mt-5'>
+                        <div className='text-center'>
+                            <p className='mb-1 what-i-do'>How can you communicate?</p>
+                            <p className='p-about'>Contact</p>
+                        </div>
+
+                        <div className='text-center mt-5'>
+                            <Row className='margin'>
+                                <Col md={6}>
+                                    <input className='input form-control' type="text" placeholder='Your Name' />
+                                </Col>
+                                <Col md={6}>
+                                    <input className='form-control' type="email" placeholder='Enter Email' />
+                                </Col>
+                            </Row>
+                            <br />
+                            <div className="row margin">
+                                <div className="col">
+                                    <textarea className='form-control' name="" id="" cols="30" rows="6" placeholder='Write Somthing'></textarea>
+                                </div>
+                            </div>
+
+                            {/* <Button variant="outline-primary btn-clr mt-4">Send Message</Button>{' '} */}
+                            <input type="submit" value="Send Message" class="btn btn-outline-primary rounded mt-4 mb-5"></input>
+
+
+                        </div>
+
+
+                    </div>
+                </Container>
 
 
             </Layouts>
