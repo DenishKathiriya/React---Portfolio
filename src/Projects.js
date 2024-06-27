@@ -1,6 +1,6 @@
 import React from 'react'
-import project1 from './Images/bank-management.png'
-import project2 from './Images/ai-land.png'
+import project1 from './Images/human-use-smartphone-online-banking-600nw-2306202875.webp'
+import project2 from './Images/pngtree-ecommerce-website-with-shopping-cart-with-the-shopping-cart-on-a-image_2975658.jpg'
 import { Col, Container, Row } from 'react-bootstrap'
 import Layouts from './Layouts'
 import Home from './Home'

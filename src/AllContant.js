@@ -8,8 +8,8 @@ import svg1 from './Images/003.svg'
 import svg2 from './Images/004.svg'
 import svg3 from './Images/005.svg'
 import svg4 from './Images/006.svg'
-import project1 from './Images/bank-management.png'
-import project2 from './Images/ai-land.png'
+import project1 from './Images/human-use-smartphone-online-banking-600nw-2306202875.webp'
+import project2 from './Images/pngtree-ecommerce-website-with-shopping-cart-with-the-shopping-cart-on-a-image_2975658.jpg'
 import AOS from 'aos';
 import Layouts from './Layouts';
 import About from './About'
@@ -17,7 +17,7 @@ import Contact from './Contact';
 import Service from './Service'
 import Projects from './Projects'
 import ReactRouter from './ReactRouter';
-import resume from './resume/My resume demo.pdf'
+import resume from './resume/DENISH KAthiriya.pdf'
 
 
 export default function AllContant() {
@@ -117,19 +117,19 @@ export default function AllContant() {
                         <Row className='mt-5'>
                             <Col md={6}>
                                 <div className="Container">
-                                    <img src={project1} className='img-fluid projects'></img>
+                                    <img src={project1} className='imagefuid projects'></img>
 
                                     <div class="overlay">
-                                        <a href="https://bankmangement.web.app/"><div class="text">Bank-Management-Project</div></a>
+                                        <a href="https://bankmangement.web.app/"><div class="text">Bank-Management</div></a>
                                     </div>
                                 </div>
                             </Col>
                             <Col md={6} className='mt-project'>
                                 <div className="Container">
-                                    <img src={project2} className='img-fluid projects'></img>
+                                    <img src={project2} className='imagefuid projects'></img>
 
                                     <div class="overlay">
-                                        <a href="https://ai-land-test.web.app"><div class="text">Ai-Land-Project</div></a>
+                                        <a href="https://react-e-commercesite.web.app/"><div class="text">E-Commerce</div></a>
                                     </div>
                                 </div>
                             </Col>
