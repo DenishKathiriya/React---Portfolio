@@ -39,9 +39,9 @@ export default function Home() {
                     <div>
                         <p className='h1-heading'>Hi!</p>
                         <p className='h1-heading'>I AM Denish Kathiriya</p>
-                        <p className='front-end'>Front-End Developer</p>
+                        <p className='front-end'>Full-Stack Developer</p>
 
-                        <Button variant="outline-primary btn-clr">Visit My Works</Button>{' '}
+                        {/* <Button variant="outline-primary btn-clr" id='projects'>Visit My Works</Button>{' '} */}
 
                     </div>
                 </Container>

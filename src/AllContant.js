@@ -17,7 +17,7 @@ import Contact from './Contact';
 import Service from './Service'
 import Projects from './Projects'
 import ReactRouter from './ReactRouter';
-import resume from './resume/DENISH KAthiriya.pdf'
+import resume from './resume/Denish Kathiriya Resume.pdf'
 
 
 export default function AllContant() {
@@ -38,8 +38,17 @@ export default function AllContant() {
                                 <div className='about-media'>
                                     <p className='mb-1 font-edit'>Who Am I ?</p>
                                     <p className='p-about'>About Me</p>
-                                    <p className='font-edit'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid ad provident aut fuga animi soluta quae eos non cupiditate voluptates dolorem, doloremque quos dicta quibusdam impedit iure nemo a iste. <br />
-                                        culpa! Quasi quibusdam hic recusandae delectus velit officiis explicabo voluptatibus! Nemo esse similique, voluptates labore distinctio, placeat explicabo facilis molestias, blanditiis culpa iusto voluptatem ratione eligendi a, quia temporibus velit vero ipsa sint ex voluptatum expedita aliquid! Debitis, nam!
+                                    <p className='font-edit'>Enthusiastic and detail-oriented full-stack web developer with a solid foundation in
+                                        front-end and back-end technologies. Proficient in HTML5, CSS3, and JavaScript,
+                                        with hands-on experience in responsive web design using Bootstrap. Skilled in
+                                        building dynamic web applications with React.js for front-end development and
+                                        Node.js for server-side scripting. Familiarity with database management systems
+                                        including MongoDB for NoSQL and Firebase for real-time databases. Eager to apply
+                                        academic knowledge and practical skills gained through projects and coursework to
+                                        contribute effectively to innovative web development projects. Quick learner with a
+                                        passion for leveraging emerging technologies to deliver intuitive, scalable, and
+                                        efficient solutions that meet client needs.
+
                                     </p>
                                     <a href={resume} download={resume}>
                                         <Button variant="outline-primary btn-clr mt-4">Download CV</Button>{' '}
@@ -63,9 +72,7 @@ export default function AllContant() {
                                     <div className="body">
                                         <img src={svg1} className='img-fluid svg-img'></img>
                                         <p className='p-service m-3'>HTML</p>
-                                        <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                            molestias dolorem iste quod.
-                                        </p>
+                                        <p class="subtitle">HTML (HyperText Markup Language) is the standard markup language used to create and design web pages.</p>
                                     </div>
                                 </div>
                             </Col>
@@ -74,9 +81,7 @@ export default function AllContant() {
                                     <div className="body">
                                         <img src={svg2} className='img-fluid svg-img'></img>
                                         <p className='p-service m-3'>CSS</p>
-                                        <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                            molestias dolorem iste quod.
-                                        </p>
+                                        <p class="subtitle">CSS styles HTML elements to control their appearance, layout, and design on web pages effectively.</p>
                                     </div>
                                 </div>
                             </Col>
@@ -85,9 +90,7 @@ export default function AllContant() {
                                     <div className="body">
                                         <img src={svg3} className='img-fluid svg-img'></img>
                                         <p className='p-service m-3'>JavaScript</p>
-                                        <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                            molestias dolorem iste quod.
-                                        </p>
+                                        <p class="subtitle">JavaScript adds interactivity to websites through dynamic content, animations, and responsive user interfaces.</p>
                                     </div>
                                 </div>
                             </Col>
@@ -96,9 +99,7 @@ export default function AllContant() {
                                     <div className="body">
                                         <img src={svg4} className='img-fluid svg-img'></img>
                                         <p className='p-service m-3'>ReactJs</p>
-                                        <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                            molestias dolorem iste quod.
-                                        </p>
+                                        <p class="subtitle">React.js is a JavaScript library for building user interfaces with reusable components efficiently.</p>
                                     </div>
                                 </div>
                             </Col>

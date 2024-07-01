@@ -4,7 +4,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 import Layouts from './Layouts'
 import Home from './Home'
 import Footer from './Footer'
-import resume from './resume/DENISH KAthiriya.pdf'
+import resume from './resume/Denish Kathiriya Resume.pdf'
 
 
 export default function About() {
