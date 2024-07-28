@@ -34,8 +34,8 @@
 
 
 .clr-white:hover {
-  color: #89d4e9;
-  font-size: 20px;
+  color: #695aa6;
+  font-size: 18px;
 
 }
 
@@ -282,8 +282,8 @@
 } */
 
 .scroll-nav {
-  background-color: rgba(217, 221, 232, 255);
-  color: wheat;
+  background-color: #fff;
+  /* color: wheat; */
   width: 100%;
   position: fixed;
   display: flex;

@@ -17,7 +17,7 @@ import Contact from './Contact';
 import Service from './Service'
 import Projects from './Projects'
 import ReactRouter from './ReactRouter';
-import resume from './resume/Denish Kathiriya Resume.pdf'
+import resume from './resume/Denish Kathiriya Resume Fullstack.pdf'
 
 
 export default function AllContant() {
@@ -43,7 +43,7 @@ export default function AllContant() {
                                         with hands-on experience in responsive web design using Bootstrap. Skilled in
                                         building dynamic web applications with React.js for front-end development and
                                         Node.js for server-side scripting. Familiarity with database management systems
-                                        including MongoDB for NoSQL and Firebase for real-time databases. Eager to apply
+                                        including MongoDB Firebase for real-time databases. Eager to apply
                                         academic knowledge and practical skills gained through projects and coursework to
                                         contribute effectively to innovative web development projects. Quick learner with a
                                         passion for leveraging emerging technologies to deliver intuitive, scalable, and
@@ -162,8 +162,8 @@ export default function AllContant() {
                                 </div>
                             </div>
 
-                            {/* <Button variant="outline-primary btn-clr mt-4">Send Message</Button>{' '} */}
-                            <input type="submit" value="Send Message" class="btn btn-outline-primary rounded mt-4 mb-5"></input>
+                            <Button variant="outline-primary btn-clr mt-4 mb-5">Send Message</Button>{' '}
+                            {/* <input type="submit" value="Send Message" class="btn btn-outline-primary rounded mt-4 mb-5"></input> */}
 
 
                         </div>

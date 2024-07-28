@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import Layouts from './Layouts'
 import Home from './Home'
 import Footer from './Footer'
@@ -33,8 +33,8 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        {/* <Button variant="outline-primary btn-clr mt-4">Send Message</Button>{' '} */}
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded mt-4 mb-5"></input>
+                        <Button variant="outline-primary btn-clr mt-4 mb-5">Send Message</Button>{' '}
+                        {/* <input type="submit" value="Send Message" class="btn btn-outline-primary rounded mt-4 mb-5"></input> */}
 
 
                     </div>

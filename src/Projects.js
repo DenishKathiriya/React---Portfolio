@@ -13,7 +13,7 @@ export default function Projects() {
             <Home />
 
             <Container id='projects'>
-                <div className='service mt-5'>
+                <div className='service mt-5 mb-5'>
                     <div className='text-center'>
                         <p className='mb-1 what-i-do'>What I Did ?</p>
                         <p className='p-about'>Projects</p>
@@ -21,25 +21,26 @@ export default function Projects() {
                     <Row className='mt-5'>
                         <Col md={6}>
                             <div className="Container">
-                                <img src={project1} className='img-fluid projects'></img>
+                                <img src={project1} className='imagefuid projects'></img>
 
                                 <div class="overlay">
-                                    <a href="https://bankmangement.web.app/"><div class="text">Bank-Management-Project</div></a>
+                                    <a href="https://bankmangement.web.app/"><div class="text">Bank-Management</div></a>
                                 </div>
                             </div>
                         </Col>
                         <Col md={6} className='mt-project'>
                             <div className="Container">
-                                <img src={project2} className='img-fluid projects'></img>
+                                <img src={project2} className='imagefuid projects'></img>
 
                                 <div class="overlay">
-                                    <a href="https://ai-land-test.web.app"><div class="text">Ai-Land-Project</div></a>
+                                    <a href="https://react-e-commercesite.web.app/"><div class="text">E-Commerce</div></a>
                                 </div>
                             </div>
                         </Col>
                     </Row>
                 </div>
             </Container>
+
 
             <Footer />
 
